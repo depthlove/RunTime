@@ -15,6 +15,13 @@
 		B66953961D73D7B50012995F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B66953941D73D7B50012995F /* LaunchScreen.storyboard */; };
 		B66953A11D73D7B50012995F /* RunTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B66953A01D73D7B50012995F /* RunTimeTests.m */; };
 		B66953AC1D73D7B50012995F /* RunTimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B66953AB1D73D7B50012995F /* RunTimeUITests.m */; };
+		B6BBA5D51D7522E700EA6A24 /* PeopleJason.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BBA5D41D7522E700EA6A24 /* PeopleJason.m */; };
+		B6BBA5D81D75313000EA6A24 /* PeopleSing.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BBA5D71D75313000EA6A24 /* PeopleSing.m */; };
+		B6BBA5DB1D75365500EA6A24 /* BordSing.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BBA5DA1D75365500EA6A24 /* BordSing.m */; };
+		B6BBA5DE1D7539A900EA6A24 /* PeopleDance.m in Sources */ = {isa = PBXBuildFile; fileRef = B6BBA5DD1D7539A900EA6A24 /* PeopleDance.m */; };
+		B6F6B20B1D740A110042562F /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F6B20A1D740A110042562F /* People.m */; };
+		B6F6B20E1D741ACD0042562F /* People+Associated.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F6B20D1D741ACD0042562F /* People+Associated.m */; };
+		B6F6B2111D74320D0042562F /* PeopleCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = B6F6B2101D74320D0042562F /* PeopleCoding.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,20 @@
 		B66953A71D73D7B50012995F /* RunTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B66953AB1D73D7B50012995F /* RunTimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunTimeUITests.m; sourceTree = "<group>"; };
 		B66953AD1D73D7B50012995F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6BBA5D31D7522E700EA6A24 /* PeopleJason.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleJason.h; sourceTree = "<group>"; };
+		B6BBA5D41D7522E700EA6A24 /* PeopleJason.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleJason.m; sourceTree = "<group>"; };
+		B6BBA5D61D75313000EA6A24 /* PeopleSing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleSing.h; sourceTree = "<group>"; };
+		B6BBA5D71D75313000EA6A24 /* PeopleSing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleSing.m; sourceTree = "<group>"; };
+		B6BBA5D91D75365500EA6A24 /* BordSing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BordSing.h; sourceTree = "<group>"; };
+		B6BBA5DA1D75365500EA6A24 /* BordSing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BordSing.m; sourceTree = "<group>"; };
+		B6BBA5DC1D7539A900EA6A24 /* PeopleDance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleDance.h; sourceTree = "<group>"; };
+		B6BBA5DD1D7539A900EA6A24 /* PeopleDance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleDance.m; sourceTree = "<group>"; };
+		B6F6B2091D740A110042562F /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		B6F6B20A1D740A110042562F /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
+		B6F6B20C1D741ACD0042562F /* People+Associated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "People+Associated.h"; sourceTree = "<group>"; };
+		B6F6B20D1D741ACD0042562F /* People+Associated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "People+Associated.m"; sourceTree = "<group>"; };
+		B6F6B20F1D74320D0042562F /* PeopleCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleCoding.h; sourceTree = "<group>"; };
+		B6F6B2101D74320D0042562F /* PeopleCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleCoding.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +126,20 @@
 				B669538A1D73D7B40012995F /* AppDelegate.m */,
 				B669538C1D73D7B40012995F /* ViewController.h */,
 				B669538D1D73D7B40012995F /* ViewController.m */,
+				B6F6B2091D740A110042562F /* People.h */,
+				B6F6B20A1D740A110042562F /* People.m */,
+				B6F6B20C1D741ACD0042562F /* People+Associated.h */,
+				B6F6B20D1D741ACD0042562F /* People+Associated.m */,
+				B6F6B20F1D74320D0042562F /* PeopleCoding.h */,
+				B6F6B2101D74320D0042562F /* PeopleCoding.m */,
+				B6BBA5D31D7522E700EA6A24 /* PeopleJason.h */,
+				B6BBA5D41D7522E700EA6A24 /* PeopleJason.m */,
+				B6BBA5D61D75313000EA6A24 /* PeopleSing.h */,
+				B6BBA5D71D75313000EA6A24 /* PeopleSing.m */,
+				B6BBA5D91D75365500EA6A24 /* BordSing.h */,
+				B6BBA5DA1D75365500EA6A24 /* BordSing.m */,
+				B6BBA5DC1D7539A900EA6A24 /* PeopleDance.h */,
+				B6BBA5DD1D7539A900EA6A24 /* PeopleDance.m */,
 				B669538F1D73D7B40012995F /* Main.storyboard */,
 				B66953921D73D7B50012995F /* Assets.xcassets */,
 				B66953941D73D7B50012995F /* LaunchScreen.storyboard */,
@@ -270,8 +305,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6F6B20B1D740A110042562F /* People.m in Sources */,
+				B6F6B20E1D741ACD0042562F /* People+Associated.m in Sources */,
+				B6BBA5DB1D75365500EA6A24 /* BordSing.m in Sources */,
 				B669538E1D73D7B40012995F /* ViewController.m in Sources */,
 				B669538B1D73D7B40012995F /* AppDelegate.m in Sources */,
+				B6BBA5D51D7522E700EA6A24 /* PeopleJason.m in Sources */,
+				B6BBA5D81D75313000EA6A24 /* PeopleSing.m in Sources */,
+				B6F6B2111D74320D0042562F /* PeopleCoding.m in Sources */,
+				B6BBA5DE1D7539A900EA6A24 /* PeopleDance.m in Sources */,
 				B66953881D73D7B40012995F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,6 +540,7 @@
 				B66953B21D73D7B50012995F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B66953B31D73D7B50012995F /* Build configuration list for PBXNativeTarget "RunTimeTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +549,7 @@
 				B66953B51D73D7B50012995F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B66953B61D73D7B50012995F /* Build configuration list for PBXNativeTarget "RunTimeUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +558,7 @@
 				B66953B81D73D7B50012995F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
